@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+ background-color: rgb(187, 173, 156);
+}
+.box{
+    height: 82vh;
+    width: 82vw;
+    border: 2px solid rgb(187, 173, 156);
+    border-radius: 11px;
+    background-color: rgba(240, 248, 255, 0.411);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin: auto;
+    position: relative;
+    right: 106px;
+    margin-right: 25px;
+    
+}
+.brandname{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    left: 221px;
+    top: 168px;
+    color: rgb(173, 94, 94);
+    font-family: "Playwrite GB S", cursive;
+    font-size: 32px;
+
+}
+.box h4{
+    position: relative;
+   bottom: 11px;
+   font-size: 22px;
+}
+.box img{
+    height: 52vh;
+    width: 42vw;
+    border-radius: 22px;
+    padding: 22px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 235px;
+    bottom: 184px;
+  
+
+    
+}
+.price h2{
+    font-size: 45px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    position: relative;
+    bottom: 121px;
+    left: 65px;
+        
+}
+.buttons button{
+    color: rgb(0, 0, 0);
+        padding: 6px 24px;
+        font-size: 20px;
+        border-radius: 4px;
+        font-weight: 400;
+        background-color: chartreuse;
+        border-color:chartreuse;
+        
+}
+.buttons button:hover{
+    background-color: rgb(122, 219, 25);
+    border-color: rgb(122, 219, 25); 
+    color: rgb(255, 255, 255);
+}
